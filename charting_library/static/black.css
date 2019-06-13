@@ -1,0 +1,89 @@
+.chart-page {
+  background-color: #151a3a;
+}
+
+iframe {
+  width: 100%;
+}
+.header-chart-panel .header-chart-panel-content {
+  padding: 0;
+}
+
+.header-chart-panel {
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.chart-page .chart-container {
+  border: 0;
+}
+
+.chart-container {
+  left: 0 !important;
+}
+
+.space-single {
+  background-color: #151a3a;
+  cursor: pointer;
+}
+
+.header-group-fullscreen {
+  float: right;
+  margin-right: 175px !important;
+}
+
+.header-chart-panel .button {
+  background: inherit;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.feature-no-touch .header-chart-panel .button:hover:not(.disabled),
+.feature-no-touch .symbol-edit-widget .button:hover:not(.disabled) {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.header-chart-panel .selected {
+  background: #0d1338;
+  color: #0ca7f5 !important;
+  border-radius: 2px;
+  border-color: #6b6f9e;
+}
+
+.button.fullscreen svg {
+  fill: #fff;
+}
+
+.feature-no-touch .button.fullscreen:hover svg {
+  fill: #fff;
+  opacity: 0.9;
+}
+
+.header-chart-panel .button:hover::before {
+  display: none !important;
+}
+
+.header-chart-panel .button:active {
+  background: inherit !important;
+}
+
+.icon {
+  background: url('./images/direction2.png') no-repeat;
+}
+
+.selected .icon {
+  background: url('./images/direction1.png')no-repeat;
+}
+
+.icon {
+  display: inline-block;
+  background-size: contain;
+  width: 12px;
+  height: 12px;
+}
+.pane-legend-line {
+  font-size: 14px !important;
+}
