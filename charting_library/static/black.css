@@ -16,6 +16,7 @@ iframe {
 
 .chart-page .chart-container {
   border: 0;
+  background: transparent !important;
 }
 
 .chart-container {
